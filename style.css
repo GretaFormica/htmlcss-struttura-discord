@@ -49,21 +49,21 @@ video {
 header{
     padding: 50px 0;
     background-color: aqua;
-    display: flex;
-    align-items: center;
 }
 
-.container.header{
-    max-height: 50px;
-    display: flex;
+.box.header{
     height: 50px;
-    max-width: 5000px;
+    display: flex;
+    border: none;
+
 }
 
-.container.header>*{
+.box.header>*{
     background-color: goldenrod;
     border: 5px dashed black;
     min-height: 50px;
+    padding: 5px;
+    align-items: center;
 }
 
 .nav{
@@ -95,6 +95,7 @@ header{
     width: calc(100% / 3 * 2);
     height: 100%;
     background-color: #1e90ff;
+    display: flex;
 }
 
 .rosa{
@@ -118,4 +119,39 @@ header{
 
 .box.green{
     background-color: #228b22;
+}
+
+/* footer */
+
+.container.six{
+    background-color: #23272a;
+    border-bottom: 2px solid white;
+}
+
+.azzurro{
+    width: 25%;
+    height: 100%;
+    border: 2px dashed white;
+}
+
+.container.seven{
+    background-color: #23272a;
+}
+
+.box.footer{
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7fffd4;
+}
+
+.box.footer>*{
+    border: 3px dashed black;
+    background-color: #ffb6c1;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+
 }
