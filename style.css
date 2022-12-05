@@ -28,9 +28,6 @@ video {
 .container {
 	margin: 0 auto;
     padding: 50px;
-}
-
-.d-flex{
     display: flex;
 }
 
@@ -54,7 +51,6 @@ header{
 .box.header{
     height: 50px;
     width: 1200px;
-    display: flex;
     border: none;
 
 }
@@ -87,7 +83,6 @@ header{
 /* container two */
 .container.two{
     background-color: white;
-    display: flex;
 }
 
 .blu{
@@ -140,7 +135,6 @@ header{
 .box.footer{
     height: 50px;
     border: none;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #7fffd4;
