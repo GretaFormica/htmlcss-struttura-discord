@@ -36,10 +36,10 @@ video {
 
 .box{
     margin: auto;
-    height: 200px;
-    background-color: red;
-    width: 200px;
+    height: 400px;
+    width: 1000px;
     border: 5px dashed black;
+    display: flex;
 }
 
 
@@ -76,6 +76,46 @@ header{
 
 /* main */
 
-.container.first{
+/* container one */
+.container.one{
     background-color: #00008b;
+}
+
+.box.pink{
+    background-color: #ee82ee;
+}
+
+/* container two */
+.container.two{
+    background-color: white;
+    display: flex;
+}
+
+.blu{
+    width: calc(100% / 3 * 2);
+    height: 100%;
+    background-color: #1e90ff;
+}
+
+.rosa{
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: #ffc0cb;
+}
+
+.container.three{
+    background-color: #d3d3d3;
+}
+
+.container.four{
+    background-color: white;
+}
+
+/* container five */
+.container.five{
+    background-color: #d3d3d3;
+}
+
+.box.green{
+    background-color: #228b22;
 }
