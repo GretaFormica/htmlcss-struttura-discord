@@ -53,6 +53,7 @@ header{
 
 .box.header{
     height: 50px;
+    width: 1200px;
     display: flex;
     border: none;
 
@@ -64,15 +65,13 @@ header{
     min-height: 50px;
     padding: 5px;
     align-items: center;
+    min-width: 200px;
 }
 
 .nav{
     flex-grow: 1;
 }
 
-.logo, .login{
-    width: 200px;
-}
 
 /* main */
 
